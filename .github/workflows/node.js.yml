@@ -11,7 +11,8 @@ steps:
     run: |
       npm install
       npm run build
-  test:runs-on: ubuntu-latest
+test:
+   runs-on: ubuntu-latest
 
 strategy:
   matrix:
